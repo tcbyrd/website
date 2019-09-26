@@ -53,6 +53,7 @@ If you want an even more recent version of the Flutter SDK,
 switch to a less stable Flutter channel
 and then run `flutter upgrade`.
 
+
 ## Switching Flutter channels
 
 Flutter has four [release channels][]:
@@ -80,6 +81,7 @@ $ flutter upgrade
   If you need a specific version of the Flutter SDK,
   you can download it from the [Flutter SDK archive][].
 {{site.alert.end}}
+
 
 ## Upgrading packages only
 
@@ -111,6 +113,16 @@ We publish breaking change announcements to the
 You can also ask questions on the [Flutter dev mailing list][flutter-dev].
 Aside from subscribing to receive announcements,
 we'd love to hear from you!
+
+
+## Selecting a specific version
+
+If you have a specific version that you'd like to switch to, you can use the `flutter version` command:
+
+```terminal
+$ flutter version v1.9.1+hotfix.3
+```
+
 
 [Flutter SDK archive]: /docs/development/tools/sdk/archive
 [release channels]: {{site.github}}/flutter/flutter/wiki/Flutter-build-release-channels
